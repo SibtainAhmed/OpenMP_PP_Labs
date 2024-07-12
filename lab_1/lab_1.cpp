@@ -4,7 +4,7 @@
 #include <iostream>
 #include <omp.h>
 #include <stdio.h>
-/*--
+///*--
 int main() {
 #pragma omp parallel
     {
@@ -12,9 +12,9 @@ int main() {
      omp_get_thread_num());
     } 
 }
---*/
+//--*/
 
-/*--
+///*--
 int main() {
     omp_set_dynamic(0);
     omp_set_num_threads(16);
@@ -24,9 +24,9 @@ int main() {
      omp_get_num_threads());
     }
 }
---*/
+//--*/
 
-/*--
+///*--
 int main() {
 
     omp_set_dynamic(1);
@@ -66,10 +66,10 @@ omp_set_nested(1);
     }
 }
 
---*/
+//--*/
 
 
-/*--
+///*--
 int main() {
 #pragma omp parallel
     {
@@ -79,4 +79,4 @@ int main() {
     }
     return 0;
 }
---*/
+//--*/
